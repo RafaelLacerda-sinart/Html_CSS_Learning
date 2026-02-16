@@ -1,4 +1,4 @@
-# 📘 Guia Essencial de HTML (Tags e Atributos Mais Importantes)
+# 📘 Guia Essencial de HTML
 
 Este guia contém apenas as **tags e atributos mais utilizados no desenvolvimento web moderno**.
 
