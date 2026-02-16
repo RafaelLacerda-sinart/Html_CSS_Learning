@@ -81,10 +81,77 @@ body {
 
 /* PSEUDO-CLASSE :hover
    Quando o mouse passa por cima */
-.card:hover {
-    transform: translateY(-10px);
-    /* Sobe o card */
+.card:active {
+    transform: scale(0.98);
+    /* Quando o usuário está clicando */
 }
+
+.card:focus {
+    outline: 2px solid #4CAF50;
+    /* Quando o elemento recebe foco (teclado) */
+}
+
+.card:focus-visible {
+    outline: 3px solid blue;
+    /* Mostra foco apenas quando necessário (acessibilidade) */
+}
+
+input:checked {
+    accent-color: green;
+    /* Aplica estilo quando o input está marcado (checkbox ou radio) */
+}
+
+input:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+    /* Aplica estilo quando o input está desativado */
+}
+
+input:required {
+    border: 2px solid red;
+    /* Aplica estilo quando o input é obrigatório */
+}
+
+.card:first-child {
+    border-top: 3px solid purple;
+    /* Seleciona o primeiro elemento .card dentro do elemento pai */
+}
+
+.card:last-child {
+    border-bottom: 3px solid purple;
+    /* Seleciona o último elemento .card dentro do elemento pai */
+}
+
+.card:nth-child(2) {
+    background-color: #f5f5f5;
+    /* Seleciona o segundo elemento filho */
+}
+
+.card:nth-child(even) {
+    background-color: #fafafa;
+    /* Seleciona os elementos em posições pares */
+}
+
+.card:not(.active) {
+    opacity: 0.7;
+    /* Seleciona os elementos .card que NÃO têm a classe .active */
+}
+
+a:link {
+    color: blue;
+    /* Seleciona links que ainda não foram visitados */
+}
+
+a:visited {
+    color: purple;
+    /* Seleciona links que já foram visitados */
+}
+
+.card:target {
+    border: 2px solid red;
+    /* Seleciona o elemento com id que foi acessado pela URL (#id) */
+}
+
 
 
 
@@ -150,3 +217,4 @@ footer {
     }
 
 }
+
