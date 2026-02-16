@@ -1,68 +1,49 @@
-# 📘 Guia Completo de Tags HTML e CSS
+# 📘 Guia Essencial de HTML (Tags e Atributos Mais Importantes)
+
+Este guia contém apenas as **tags e atributos mais utilizados no desenvolvimento web moderno**.
 
 ---
 
-# 🥇 1. Estrutura Básica do Documento (Essenciais)
+# 🥇 1. Estrutura Básica do Documento
 
 | Tag | Descrição | Exemplo |
 |------|------------|----------|
-| `<!DOCTYPE html>` | Define o tipo do documento como HTML5 | `<!DOCTYPE html>` |
-| `<html>` | Elemento raiz do documento | `<html lang="pt-BR">` |
-| `<head>` | Contém metadados do documento | `<head>...</head>` |
-| `<title>` | Define o título da página | `<title>Minha Página</title>` |
-| `<meta>` | Define metadados | `<meta charset="UTF-8">` |
-| `<link>` | Vincula arquivos externos | `<link rel="stylesheet" href="style.css">` |
-| `<style>` | CSS interno | `<style>body {}</style>` |
-| `<script>` | Insere JavaScript | `<script src="app.js"></script>` |
-| `<noscript>` | Conteúdo alternativo para JS desativado | `<noscript>Ative o JS</noscript>` |
-| `<body>` | Corpo do documento | `<body>...</body>` |
+| `<!DOCTYPE html>` | Define o documento como HTML5 | `<!DOCTYPE html>` |
+| `<html>` | Elemento raiz da página | `<html lang="pt-BR">` |
+| `<head>` | Metadados da página | `<head>...</head>` |
+| `<title>` | Título da aba do navegador | `<title>Minha Página</title>` |
+| `<meta>` | Configurações como charset e responsividade | `<meta charset="UTF-8">` |
+| `<link>` | Importa CSS externo | `<link rel="stylesheet" href="style.css">` |
+| `<script>` | Importa ou escreve JavaScript | `<script src="app.js"></script>` |
+| `<body>` | Conteúdo visível da página | `<body>...</body>` |
 
 ---
 
-# 🥈 2. Estrutura Semântica (Muito Importantes)
+# 🥈 2. Estrutura Semântica
 
 | Tag | Descrição |
 |------|------------|
-| `<header>` | Cabeçalho |
-| `<nav>` | Navegação |
+| `<header>` | Cabeçalho da página ou seção |
+| `<nav>` | Menu de navegação |
 | `<main>` | Conteúdo principal |
-| `<section>` | Seção |
+| `<section>` | Seção de conteúdo |
 | `<article>` | Conteúdo independente |
-| `<aside>` | Conteúdo lateral |
 | `<footer>` | Rodapé |
-| `<address>` | Informações de contato |
 
 ---
 
-# 🥉 3. Títulos e Texto
+# 🥉 3. Texto e Conteúdo
 
 | Tag | Descrição |
 |------|------------|
 | `<h1>` até `<h6>` | Títulos |
 | `<p>` | Parágrafo |
-| `<br>` | Quebra de linha |
-| `<hr>` | Linha horizontal |
-| `<strong>` | Importância (negrito semântico) |
+| `<strong>` | Destaque importante (semântico) |
 | `<em>` | Ênfase |
-| `<b>` | Negrito visual |
-| `<i>` | Itálico visual |
-| `<u>` | Sublinhado |
-| `<mark>` | Texto destacado |
-| `<small>` | Texto menor |
-| `<sub>` | Subscrito |
-| `<sup>` | Sobrescrito |
-| `<blockquote>` | Citação longa |
-| `<q>` | Citação curta |
-| `<cite>` | Referência |
-| `<abbr>` | Abreviação |
-| `<dfn>` | Definição |
+| `<br>` | Quebra de linha |
+| `<hr>` | Linha divisória |
 | `<code>` | Código inline |
-| `<pre>` | Texto pré-formatado |
-| `<kbd>` | Entrada do teclado |
-| `<samp>` | Saída de programa |
-| `<var>` | Variável |
-| `<del>` | Texto removido |
-| `<ins>` | Texto inserido |
+| `<pre>` | Bloco de código |
 
 ---
 
@@ -72,16 +53,8 @@
 |------|------------|
 | `<a>` | Link |
 | `<img>` | Imagem |
-| `<figure>` | Conteúdo ilustrado |
-| `<figcaption>` | Legenda |
 | `<video>` | Vídeo |
-| `<audio>` | Áudio |
-| `<source>` | Fonte de mídia |
-| `<track>` | Legendas |
-| `<iframe>` | Incorporação |
-| `<embed>` | Conteúdo externo |
-| `<object>` | Objeto externo |
-| `<param>` | Parâmetro |
+| `<iframe>` | Incorporação externa |
 
 ---
 
@@ -91,10 +64,7 @@
 |------|------------|
 | `<ul>` | Lista não ordenada |
 | `<ol>` | Lista ordenada |
-| `<li>` | Item |
-| `<dl>` | Lista de definição |
-| `<dt>` | Termo |
-| `<dd>` | Descrição |
+| `<li>` | Item da lista |
 
 ---
 
@@ -103,15 +73,9 @@
 | Tag | Descrição |
 |------|------------|
 | `<table>` | Tabela |
-| `<caption>` | Título da tabela |
-| `<thead>` | Cabeçalho |
-| `<tbody>` | Corpo |
-| `<tfoot>` | Rodapé |
 | `<tr>` | Linha |
-| `<th>` | Célula cabeçalho |
+| `<th>` | Célula de cabeçalho |
 | `<td>` | Célula |
-| `<colgroup>` | Grupo de colunas |
-| `<col>` | Coluna |
 
 ---
 
@@ -120,23 +84,16 @@
 | Tag | Descrição |
 |------|------------|
 | `<form>` | Formulário |
-| `<input>` | Campo |
+| `<input>` | Campo de entrada |
 | `<textarea>` | Área de texto |
 | `<button>` | Botão |
 | `<label>` | Rótulo |
 | `<select>` | Lista suspensa |
-| `<option>` | Opção |
-| `<optgroup>` | Grupo |
-| `<fieldset>` | Agrupamento |
-| `<legend>` | Título do grupo |
-| `<datalist>` | Sugestões |
-| `<output>` | Resultado |
-| `<progress>` | Progresso |
-| `<meter>` | Medidor |
+| `<option>` | Opção da lista |
 
 ---
 
-# 🧱 8. Containers Genéricos
+# 🧱 8. Containers
 
 | Tag | Descrição |
 |------|------------|
@@ -145,41 +102,58 @@
 
 ---
 
-# 🔍 9. Elementos Interativos e Avançados
+# 📌 Atributos Essenciais
 
-| Tag | Descrição |
-|------|------------|
-| `<details>` | Conteúdo expansível |
-| `<summary>` | Título do details |
-| `<dialog>` | Caixa de diálogo |
-| `<canvas>` | Desenho via JS |
-| `<svg>` | Vetor |
-| `<template>` | Modelo reutilizável |
-| `<slot>` | Web Components |
-| `<map>` | Mapa de imagem |
-| `<area>` | Área clicável |
-| `<time>` | Data/hora |
-| `<wbr>` | Oportunidade de quebra |
+## Globais
+
+| Atributo | Função | Exemplo |
+|-----------|--------|----------|
+| `class` | Classe para CSS/JS | `<div class="container">` |
+| `id` | Identificador único | `<section id="sobre">` |
+| `lang` | Idioma da página | `<html lang="pt-BR">` |
 
 ---
 
-# ⚠️ Tags Obsoletas (Não usar no HTML5)
+## Links (`<a>`)
 
-| Tag | Motivo |
-|------|--------|
-| `<font>` | Substituído por CSS |
-| `<center>` | Substituído por CSS |
-| `<big>` | Obsoleto |
-| `<strike>` | Use `<del>` |
-| `<tt>` | Use CSS |
-| `<frame>` | Substituído por `<iframe>` |
-| `<frameset>` | Obsoleto |
+| Atributo | Função | Exemplo |
+|-----------|--------|----------|
+| `href` | Destino do link | `<a href="/contato">` |
+| `target` | Onde abrir o link | `<a target="_blank">` |
+| `rel` | Segurança para `_blank` | `<a rel="noopener noreferrer">` |
 
 ---
 
-📎 Documento baseado na especificação HTML5.
+## Imagens (`<img>`)
+
+| Atributo | Função | Exemplo |
+|-----------|--------|----------|
+| `src` | Caminho da imagem | `<img src="foto.jpg">` |
+| `alt` | Descrição da imagem | `<img alt="Produto">` |
 
 ---
+
+## Formulários
+
+| Atributo | Função | Exemplo |
+|-----------|--------|----------|
+| `type` | Tipo do input | `<input type="email">` |
+| `name` | Nome enviado ao backend | `<input name="email">` |
+| `placeholder` | Texto de ajuda | `<input placeholder="Digite seu email">` |
+| `required` | Campo obrigatório | `<input required>` |
+
+---
+
+## Vídeo
+
+| Atributo | Função | Exemplo |
+|-----------|--------|----------|
+| `controls` | Mostra controles | `<video controls>` |
+| `muted` | Inicia sem som | `<video muted>` |
+
+---
+
+📎 Versão focada apenas no que realmente é utilizado em projetos reais.
 
 
 # 🎨 CSS — GUIA COMPLETO E ORGANIZADO
